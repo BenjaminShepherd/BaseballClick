@@ -13,7 +13,9 @@ class App extends Component {
     clickedBaseballIds: [],
     score: 0,
     goal: 8,
-    status: ""
+    status: "",
+    wins: "",
+    losses: ""
   };
 
   //shuffle the cards when user clicks 
@@ -22,6 +24,7 @@ class App extends Component {
 
     if (clickedBaseballIds.includes(id)) {
       this.setState({ clickedBaseballIds: [], score: 0, status: "You lost, game over. Time to Play again!" });
+
       return;
     } else {
       clickedBaseballIds.push(id)
