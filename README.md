@@ -18,6 +18,12 @@ npm install
 ```
 npm start
 ```
+### Technology Used
+JavaScript, React.js, CSS, HTML5
+
+### Deployed App
+
+https://frozen-brook-79755.herokuapp.com/
 
 
 
