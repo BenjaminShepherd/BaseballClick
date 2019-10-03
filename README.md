@@ -10,13 +10,13 @@ React.Js
 
 ### Installing
 
-NPM Install
+npm install 
 
 ### Executing program
 
-NPM START
+
 ```
-code blocks for commands
+npm start
 ```
 
 
